@@ -1,0 +1,10 @@
+Необходимо собрать следующие данные:
+• название продукта
+• цена
+• наличие продукта
+→ Результат должен быть записан в csv-файл.
+
+scrapy startproject -запуск
+scrapy shell -терминал scrapy
+scrapy crawl 'PresentsSpider' -с 'zakvaski.csv' -не работает(ошибка)
+scrapy crawl 'PresentsSpider' -o 'zakvaski.csv' -работает
